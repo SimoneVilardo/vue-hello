@@ -5,7 +5,7 @@ BONUS PROBLEMA:Aggiungere alla pagina un’immagine, presa anch’essa da un dat
 SOLUZIONE:
 1.creo un div nel DOM a cui do un id;
     1.1all'interno del div precedente creo un altro div a cui darò la direttiva v-html per inserire in js il contenuto 
-    1.2 BONUS (nello stesso div aggiungo un img a cui darò la direttiva v-html per inserire in js il contenuto ) 
+    1.2 BONUS (nello stesso div aggiungo un img a cui darò v-bind per inserire in js il contenuto ) 
 
 2.in js salvo in una variabile globale la funzione createApp dall'istanza di Vue
     2.1 utilizzo la funzione creatApp
