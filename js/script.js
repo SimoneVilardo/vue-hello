@@ -10,4 +10,4 @@ createApp({
            ciao : '<h1>Ciao VueJS!</h1>' 
         }
     }
-}).mount('#esercizio') //collego createApp con l'elemento del DOM predisposto al funzionamento dell'applicazione Vue
+}).mount('#esercizio'); //collego createApp con l'elemento del DOM predisposto al funzionamento dell'applicazione Vue

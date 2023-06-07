@@ -7,7 +7,8 @@ createApp({
     data() {
         // all'interno del return definisco la variabile di cui ho bisogno
         return {
-           ciao : '<h1>Ciao VueJS!</h1>' 
+           ciao : '<h1>Ciao VueJS!</h1>' ,
+           immagine : 'https://picsum.photos/seed/picsum/200/300'
         }
     }
 }).mount('#esercizio') //collego createApp con l'elemento del DOM predisposto al funzionamento dell'applicazione Vue
